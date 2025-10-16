@@ -1,5 +1,5 @@
 import unittest
-from data_structures import *
+from data_structures import find_average, find_even_pairs, find_max, find_min, find_number_of_even_numbers
 from io import StringIO
 import sys
 
