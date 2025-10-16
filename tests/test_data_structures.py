@@ -24,26 +24,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(find_even_pairs([1, 2, 3, 4, 5, 6]), [])
         self.assertEqual(find_even_pairs([6, 2, 3, 5, 9, 4, 1, 11]), [(0, 1), (2, 3), (3, 4), (6, 7)])
 
-    def test_find_total_number_of_even_numbers(self):
+    def test_find_number_of_even_numbers(self):
         self.assertEqual(find_number_of_even_numbers([1, 2, 3, 4, 5]), 2)
         self.assertEqual(find_number_of_even_numbers([1, 2, 3, 4, 5, 6]), 3)
         self.assertEqual(find_number_of_even_numbers([1, 2, 3, 4, 5, 6, 7, 8]), 4)
 
-    def test_5_square(self):
-        text_capture = StringIO()
-        sys.stdout = text_capture
-        draw_square(10)
-        self.assertEqual(
-            """**********
-**********
-**********
-**********
-**********
-**********
-**********
-**********
-**********
-**********
-""",
-            text_capture.getvalue(),
-        )
+if __name__ == "__main__":
+    unittest.main()

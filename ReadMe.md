@@ -6,5 +6,5 @@
 ### To Test
 
 * To run all the unittests: `python3 -m unittest tests/test_data_structures.py`
-* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_data_structures.TestFunctions.test_find_max`
+* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_data_structures.MyTestCase.test_find_max`
 * _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
